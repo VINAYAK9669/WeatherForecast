@@ -1,10 +1,13 @@
 # Weather Application
 
 A simple weather application built using HTML, CSS, and JavaScript. This app allows users to enter a city name and displays the current temperature, humidity, wind speed, and weather conditions. The app also dynamically changes icons based on the weather conditions, such as clouds, mist, snow, and rain.
+<div align="center">
+  <img src="/screenshots/FullPic.JPG" alt="Weather App Screenshot" width="300">
+  <img src="/screenshots/InvalidPic.JPG" alt="Weather App Screenshot" width="300">
+  <img src="/screenshots/1.jpg" alt="Weather App Screenshot" width="300">
+</div>
 
-<img src="/screenshots/FullPic.JPG" alt="Weather App Screenshot" width="300">
-<img src="/screenshots/InvalidPic.JPG" alt="Weather App Screenshot" width="300">
-<img src="/screenshots/1.jpg" alt="Weather App Screenshot" width="300">
+
 
 ## Features
 
