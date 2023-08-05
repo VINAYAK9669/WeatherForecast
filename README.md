@@ -1,6 +1,5 @@
 # WeatherForecast
-
-| WeatherApp - A Simple Weather Information Display
+ | WeatherApp - A Simple Weather Information Display
   
   Author: Vinayak Kittad
   Date: Aug/2023
