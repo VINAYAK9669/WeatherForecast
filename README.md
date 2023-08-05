@@ -9,7 +9,7 @@ A simple weather application built using HTML, CSS, and JavaScript. This app all
 - **Real-Time Weather Data:** Get up-to-date weather information for any city.
 - **User-Friendly Interface:** Easy-to-use interface with clear instructions.
 - **Dynamic Icons:** Weather icons change to reflect the current conditions.
-- **Temperature Display:** See the temperature in Celsius or Fahrenheit.
+- **Temperature Display:** See the temperature in Celsius.
 - **Humidity Information:** Check the humidity percentage for the selected city.
 - **Wind Speed:** Find out the wind speed to plan your day.
 - **Responsive Design:** Enjoy a seamless experience on various devices.
@@ -17,15 +17,5 @@ A simple weather application built using HTML, CSS, and JavaScript. This app all
 
 ## Demo
 
-Check out the live demo of the Weather Application [here](https://your-demo-url.com).
+Check out the live demo of the Weather Application [here](https://musical-cuchufli-52032c.netlify.app/).
 
-## Installation
-
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Obtain an API key from [openweathermap.org](https://openweathermap.org/) and replace `YOUR_API_KEY` in the `script.js` file.
-4. Open `index.html` in your browser.
-
-```bash
-git clone https://github.com/your-username/weather-app.git
-cd weather-app
