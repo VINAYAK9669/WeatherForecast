@@ -1,0 +1,164 @@
+/* 
+1. Removing the default margin and padding 
+2. Apply the Font family
+3. Set the box-sizing to border box so that padding and border width must be within the total width  
+*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+
+/**==========================Style weather__container Section===========================*/
+
+/* 1) Container lie at center of the web Page
+ 2) liner-gradient color applied to the background */
+
+.weather__container {
+  max-width: 50rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  background: linear-gradient(135deg, #ca63d6, #75adde);
+  text-align: center;
+  border-radius: 11px;
+}
+.sub__section {
+  margin-top: 1.6rem;
+}
+
+/**======Style search__container, child of weather__container =======*/
+
+/*
+
+  1) Search bar and button should be inline
+  2) Search bar at left and buttin at right side of the flex
+  3) Style an error element 
+*/
+
+.search__container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+}
+.search__container input {
+  border: 0;
+  outline: 0;
+  padding: 0.8rem 1rem;
+  border-radius: 3rem;
+  flex: 1;
+  font-size: 18px;
+}
+.search__container button {
+  border: 0;
+  outline: 0;
+  border-radius: 50%;
+  align-items: center;
+  padding: 0.8rem;
+  flex: 2;
+  background: #ebfffc;
+}
+.submit__icon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.error {
+  display: block;
+  color: white;
+  text-align: left;
+  left: 0;
+  margin-top: 0.8rem;
+  display: none;
+}
+
+/**======Style tempDisplay__container, child of weather__container =======*/
+
+.tempDisplay__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 0.6rem;
+}
+.tempDisplay__container img {
+  width: 6rem;
+}
+.tempDisplay__container h1,
+.tempDisplay__container h2 {
+  color: white;
+  font-weight: 300;
+  font-size: 2rem;
+}
+.humidity__value,
+.WindSpeed__value {
+  color: white;
+
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/** ==========Style additonal_information, child of weather__container======= */
+
+/*
+1) There should be a two columns 1 for Humidity and other for Wind speed
+2) Each column contains there own icon and result. Both should be inline
+
+*/
+
+.additonal__information {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2.6rem;
+}
+.first__col,
+.second__col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.4rem;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.2rem;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  width: 2rem;
+  align-self: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+.wind__property {
+  color: white;
+}
+.hide {
+  display: none;
+}
+
+/**========================= Responsive Design: For mobile Devices ======================*/
+
+@media only screen and (max-width: 450px) {
+  .additonal__information {
+    column-gap: 2rem;
+  }
+  .weather__container {
+    padding: 1.2rem;
+  }
+}

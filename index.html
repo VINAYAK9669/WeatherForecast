@@ -1,0 +1,75 @@
+<!-- 
+  
+  WeatherApp - A Simple Weather Information Display
+  
+  Author: Vinayak Kittad
+  Date: Aug/2023
+  
+  This web application fetches weather information using the OpenWeather API
+  and displays it on the page. Users can enter a city name to get the current
+  temperature, humidity, and wind speed. The application provides a user-friendly
+  interface with icons and visuals to enhance the weather data presentation. 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- UniIcons link -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <!-- LINK THE CSS FILE "styles.css" -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>WeatherApp</title>
+  </head>
+  <body>
+    <!-- Define a container for the Weather -->
+    <div class="weather__container">
+      <!--SECTION-1: SEARCH BAR WITH BUTTON-->
+      <div class="search__container">
+        <input type="text" placeholder="Enter city name" spellcheck="false" />
+        <button type="submit" class="submit__icon">
+          <i class="uil uil-search"></i>
+        </button>
+      </div>
+      <!-- This element will show an error message when the input is not valid -->
+      <div class="error">
+        <p>Invalid City Name</p>
+      </div>
+      <!--SECTION-2: Inludes Cloud Image and temperature with city name-->
+      <div class="tempDisplay__container sub__section hide">
+        <img src="./images/rain.png" alt="" class="weather__image" />
+        <h1 class="temp__value">22°C</h1>
+        <h2 class="city__name">New York</h2>
+      </div>
+      <!--SECTION-3: Two columns Indicates Humidity and Wind Speed-->
+      <div class="additonal__information sub__section hide">
+        <div class="first__col">
+          <div class="image">
+            <img src="./images/humidity.png" alt="wind__image__Icon" />
+          </div>
+
+          <div class="info">
+            <p class="humidity__value">50%</p>
+            <p class="wind__property">Humidity</p>
+          </div>
+        </div>
+
+        <div class="second__col">
+          <div class="image">
+            <img src="./images/wind.png" alt="wind__image__Icon" />
+          </div>
+          <div class="info">
+            <p class="WindSpeed__value">15 km/h</p>
+            <p class="wind__property">Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
