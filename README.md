@@ -6,6 +6,7 @@ A simple weather application built using HTML, CSS, and JavaScript. This app all
   <img src="/screenshots/InvalidPic.JPG" alt="Weather App Screenshot" width="300">
   <img src="/screenshots/1.jpg" alt="Weather App Screenshot" width="300">
 </div>
+
 ## Features
 
 - **Real-Time Weather Data:** Get up-to-date weather information for any city.
