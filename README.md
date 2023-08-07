@@ -20,5 +20,5 @@ A simple weather application built using HTML, CSS, and JavaScript. This app all
 
 ## Demo
 
-Check out the live demo of the Weather Application [here](https://musical-cuchufli-52032c.netlify.app/).
+Check out the live demo of the Weather Application [here](https://inquisitive-kulfi-80d5ae.netlify.app/).
 
