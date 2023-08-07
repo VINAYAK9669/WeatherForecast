@@ -12,6 +12,24 @@
 body {
   background-color: black;
 }
+.Title {
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+  background-image: url(https://miro.medium.com/max/3840/1*35WvfUj5a1aG96nI1sMSMw.jpeg);
+  padding: 0.6rem;
+  font-weight: 900;
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
 
 /**==========================Style weather__container Section===========================*/
 
